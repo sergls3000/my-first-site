@@ -1,0 +1,38 @@
+/* 
+
+Мы можем обращаться по тэгу (например div/img), классу (например ".image-containe") или идентификатору (#id)
+
+в круглых скобочках пишем {свойство : значение;}  
+
+*/
+
+.image-container {
+    background: rgb(26, 29, 190);
+    color: rgb(242, 249, 250);
+}
+
+.image {
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto 0 auto;
+}
+
+.link {
+    display: block;
+    margin: 10px 0 10px 0;
+}
+
+.form-auth {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-submit {
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+

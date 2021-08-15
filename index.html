@@ -1,0 +1,52 @@
+<!-- DOCTYPE - это html документ -->
+<!DOCTYPE html>
+
+<html lang="en">
+  <!-- head - мета информация -->
+  <head>
+    <meta charset="UTF-8">
+    <!-- title - заголовок -->
+    <title>Заголовок страницы</title>,
+
+    <!-- через link подключаем стили -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <!-- body - содержание страницы -->
+  <body>
+    <!-- h1 - заголовок 1й, самый большой, до h1-h6 -->
+    <h1>начало</h1>
+
+    <!-- div - блочный элемент -->
+    <div class="image-container">Моя первая html страница</div>
+    
+    <!-- p - параграф, тоже блочный -->
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae atque delectus, consequatur earum illo sequi, vero magnam possimus ullam, enim quidem dolorum reprehenderit? Commodi fugit inventore omnis, quod molestias officia.</p>
+
+    <!-- a - anchor ссылка, через аттрибут "href" задаём ссылку -->
+    <a class="link" href="https://google.com">ссылка на гугл</a>
+
+    <div class="image-container">
+      <!-- img - картинка, чечез src указываем ссылку на картинку  -->
+      <img class="image" src="https://klike.net/uploads/posts/2019-05/1556708032_1.jpg" alt="картинка">
+    </div>
+    
+    <!-- form - формочка -->
+    <form class="form-auth" action="https://google.com" method="get">
+      <h1>
+        Авторизуйтесь!
+      </h1>
+
+      <!-- label - ярлык для инпута -->
+      <label for="my-radio-input">вариант 1</label>
+      <!-- input - инпут, поле ввода, разный type тип -->
+      <input type="radio" id="my-radio-input">
+      
+      <!-- button - кнопка -->
+      <button class="button-submit" type="submit">войти</button>
+
+    </form>
+  </body>
+</html>
+
+
